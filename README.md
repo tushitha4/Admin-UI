@@ -6,6 +6,12 @@ A modern React.js admin settings interface built with Tailwind CSS that replicat
 
 This application provides a comprehensive admin settings dashboard with profile management, security settings, and password change functionality. It's built as a pixel-perfect replica of the original HTML/CSS design while leveraging modern React.js best practices.
 
+### 🚀 Live Demo
+
+**Deployed URL:** https://settings-admin-ui1.vercel.app
+
+The application is live and fully functional on Vercel!
+
 ## Features
 
 ### Core Functionality
@@ -54,7 +60,8 @@ This application provides a comprehensive admin settings dashboard with profile 
    ```
 
 4. **Access the application**
-   - Open your browser and navigate to: `http://localhost:3000`
+   - **Local Development:** Open your browser and navigate to: `http://localhost:3000`
+   - **Live Demo:** Visit the deployed application at: https://settings-admin-ui1.vercel.app
 
 ## Project Structure
 
