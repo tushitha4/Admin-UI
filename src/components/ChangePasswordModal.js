@@ -133,12 +133,11 @@ const ChangePasswordModal = ({ closeModal, onUpdatePassword }) => {
           <div style={{
             display: 'flex',
             alignItems: 'center',
-            background: '#eee',
+            background: newPassword ? '#fff' : '#eee',
             borderRadius: '6px',
             padding: '8px 10px',
             marginBottom: '10px',
-            border: newPassword ? '2px solid #ff1f1f' : 'none',
-            background: newPassword ? '#fff' : '#eee'
+            border: newPassword ? '2px solid #ff1f1f' : 'none'
           }}>
             <input
               type={showNewPassword ? 'text' : 'password'}
