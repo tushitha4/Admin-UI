@@ -1,10 +1,10 @@
-# Admin Settings React Application
+# Admin Settings UI
 
-A modern React.js admin settings interface built with Tailwind CSS that replicates an exact HTML/CSS design with full interactive functionality.
+A modern React.js admin settings interface built with Tailwind CSS. This project is located in the `setting ui` folder and replicates an exact HTML/CSS design with full interactive functionality.
 
 ## Overview
 
-This application provides a comprehensive admin settings dashboard with profile management, security settings, and password change functionality. It's built as a pixel-perfect replica of the original HTML/CSS design while leveraging modern React.js best practices.
+This Admin Settings UI provides a comprehensive dashboard with profile management, security settings, and password change functionality. The project is built as a pixel-perfect replica of the original HTML/CSS design while leveraging modern React.js best practices.
 
 ### 🚀 Live Demo
 
@@ -14,7 +14,7 @@ This application provides a comprehensive admin settings dashboard with profile 
 
 **Repository URL:** https://github.com/tushitha4/Admin-UI
 
-The application is live and fully functional on Vercel!
+The Admin Settings UI is live and fully functional on Vercel!
 
 ## Features
 
@@ -48,7 +48,7 @@ The application is live and fully functional on Vercel!
 
 ### Installation Steps
 
-1. **Clone or download the project**
+1. **Navigate to the Admin Settings UI folder**
    ```bash
    cd "setting ui"
    ```
@@ -70,19 +70,24 @@ The application is live and fully functional on Vercel!
 ## Project Structure
 
 ```
-src/
-|-- components/
-|   |-- Sidebar.js           # Fixed sidebar with logo and navigation
-|   |-- Header.js            # Top navigation with search and icons
-|   |-- MainPage.js          # Main admin settings page
-|   |-- EditPage.js          # Profile editing form
-|   |-- ChangePasswordModal.js # Password change modal with validation
-|-- App.js                   # Main application component with state management
-|-- index.js                 # Application entry point
-|-- index.css                # Global styles and Tailwind imports
-public/
-|-- index.html               # HTML template with Font Awesome
-|-- logo.png                 # Application logo
+setting ui/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.js           # Fixed sidebar with logo and navigation
+│   │   ├── Header.js            # Top navigation with search and icons
+│   │   ├── MainPage.js          # Main admin settings page
+│   │   ├── EditPage.js          # Profile editing form
+│   │   ├── ChangePasswordModal.js # Password change modal with validation
+│   ├── App.js                   # Main application component with state management
+│   ├── index.js                 # Application entry point
+│   └── index.css                # Global styles and Tailwind imports
+├── public/
+│   ├── index.html               # HTML template with Font Awesome
+│   └── logo.png                 # Application logo
+├── package.json                 # Dependencies and scripts
+├── tailwind.config.js           # Tailwind CSS configuration
+├── postcss.config.js            # PostCSS configuration
+└── README.md                    # This documentation file
 ```
 
 ## Component Details
@@ -145,6 +150,11 @@ public/
 2. **Edit Profile**: Click "Edit Profile" to modify user information
 3. **Change Password**: Click "Change Password" to open the modal
 4. **Back Navigation**: Use the "Back" button or "Cancel" to return
+
+### Folder Structure
+- The entire Admin Settings UI is contained within the `setting ui` folder
+- All React components are in `src/components/`
+- Static assets are in the `public/` folder
 
 ### Password Change Process
 1. Click "Change Password" in Security Settings
@@ -225,4 +235,5 @@ For questions or support regarding this React admin settings application, please
 
 **Application Status**: Complete and Functional  
 **Last Updated**: April 2026  
-**Version**: 1.0.0
+**Version**: 1.0.0  
+**Folder**: `setting ui`
