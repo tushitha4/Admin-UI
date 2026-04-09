@@ -10,6 +10,10 @@ This application provides a comprehensive admin settings dashboard with profile 
 
 **Deployed URL:** https://settings-admin-ui1.vercel.app
 
+### 📁 GitHub Repository
+
+**Repository URL:** https://github.com/tushitha4/Admin-UI
+
 The application is live and fully functional on Vercel!
 
 ## Features
